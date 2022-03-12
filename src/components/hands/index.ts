@@ -35,6 +35,19 @@ customElements.define(
       `;
 
       style.innerHTML = `
+        .hand {
+          width: 40px;
+        }
+        @media only screen and (min-width: 370px) {
+          .hand {
+            width: 60px;
+          }
+        }
+        @media only screen and (min-width: 420px) {
+          .hand {
+            width: 80px;
+          }
+        }
       `;
 
       shadow.appendChild(style);

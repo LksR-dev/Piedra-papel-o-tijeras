@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Patrick Hand", sans-serif;
+  overflow-y: hidden;
 }
 
 :root {
@@ -27,6 +28,15 @@ body {
 .container__hand {
   display: flex;
   align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+  width: 100%;
+}
+@media only screen and (min-width: 370px) {
+  .container__hand {
+    top: 70px;
+  }
 }
 
 hands-comp {
