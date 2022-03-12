@@ -1,15 +1,18 @@
+import { initWelcome } from "./pages/welcome";
+import { initInstructions } from "./pages/game-instructions";
+
 const routes = [
   {
     path: /\/welcome/,
-    component: "",
+    component: initWelcome,
   },
   {
-    path: /\/step-uno/,
-    component: "",
+    path: /\/instructions/,
+    component: initInstructions,
   },
   {
     path: /\/thankyou/,
-    component: "",
+    // component: () => {},
   },
 ];
 
@@ -26,12 +29,12 @@ export function initRouter(container: Element) {
     //ejecuta la función que acompaña
     for (const r of routes) {
       if (r.path.test(route)) {
-        // const el = r.component({ goTo: goTo });
+        const el = r.component({ goTo: goTo });
 
         if (container.firstChild) {
           container.firstChild.remove();
         }
-        // container.appendChild(el);
+        container.appendChild(el);
       }
     }
   }
