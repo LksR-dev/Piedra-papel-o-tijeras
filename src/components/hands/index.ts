@@ -10,7 +10,19 @@ customElements.define(
     shadow: ShadowRoot;
     constructor() {
       super();
+    }
+    connectedCallback() {
       this.render();
+    }
+    addListeners() {
+      this.addEventListener("click", () => {
+        const handClick = new CustomEvent("handClick", {
+          detail: {
+            handMove: this.getAttribute("hand"),
+          },
+        });
+        this.dispatchEvent(handClick);
+      });
     }
     render() {
       const shadow = this.attachShadow({ mode: "open" });
@@ -19,7 +31,7 @@ customElements.define(
       const hand = this.getAttribute("hand");
 
       div.innerHTML = `
-        <img src="${hands[hand]}" />
+        <img class="hand" src="${hands[hand]}" />
       `;
 
       style.innerHTML = `

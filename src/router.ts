@@ -1,5 +1,6 @@
 import { initWelcome } from "./pages/welcome";
 import { initInstructions } from "./pages/game-instructions";
+import { initMove } from "./pages/choose-move";
 
 const routes = [
   {
@@ -11,8 +12,8 @@ const routes = [
     component: initInstructions,
   },
   {
-    path: /\/thankyou/,
-    // component: () => {},
+    path: /\/choose-move/,
+    component: initMove,
   },
 ];
 
