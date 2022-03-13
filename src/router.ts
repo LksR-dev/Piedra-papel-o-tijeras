@@ -3,6 +3,8 @@ import { initInstructions } from "./pages/game-instructions";
 import { initMove } from "./pages/game";
 import { initResults } from "./pages/show-results";
 
+const BASE_PATH = "/dwf-m5";
+
 const routes = [
   {
     path: /\/welcome/,
@@ -22,19 +24,24 @@ const routes = [
   },
 ];
 
+function isGithubPages() {
+  return location.host.includes("github.io");
+}
+
 export function initRouter(container: Element) {
   function goTo(path) {
-    history.pushState({}, "", path);
-    handleRoute(path);
+    const completePath = isGithubPages() ? BASE_PATH + path : path;
+    history.pushState({}, "", completePath);
+    handleRoute(completePath);
   }
 
   function handleRoute(route) {
-    console.log("El handle route recibió una nueva ruta", route);
+    const newRoute = isGithubPages() ? route.replace(BASE_PATH, "") : route;
 
     //Compara cada path con la collection y si alguna coincide
     //ejecuta la función que acompaña
     for (const r of routes) {
-      if (r.path.test(route)) {
+      if (r.path.test(newRoute)) {
         const el = r.component({ goTo: goTo });
 
         if (container.firstChild) {
@@ -45,7 +52,7 @@ export function initRouter(container: Element) {
     }
   }
 
-  if (location.pathname == "/") {
+  if (location.pathname == "/" || location.pathname == "/dwf-m5") {
     goTo("/welcome");
   } else {
     handleRoute(location.pathname);
