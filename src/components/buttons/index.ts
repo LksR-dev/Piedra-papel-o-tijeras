@@ -10,12 +10,13 @@ customElements.define(
       const shadow = this.attachShadow({ mode: "open" });
       const style = document.createElement("style");
       const btnEl = document.createElement("button");
+
       btnEl.textContent = this.textContent;
       btnEl.className = "btn";
 
       style.innerHTML = `
         .btn{
-          width: 300px;
+          width: 322px;
           height: 87px;
           background-color: #006CFC;
           color: #ffff;

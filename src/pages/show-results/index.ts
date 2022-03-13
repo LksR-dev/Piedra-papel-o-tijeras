@@ -44,31 +44,38 @@ export function initResults(param): HTMLElement {
     </div>
 
     <btn-comp class="button">Volver a Jugar</btn-comp>
+    <btn-comp class="button back">Volver al Inicio</btn-comp>
   `;
 
   div
     .querySelector(".button")
     .addEventListener("click", () => param.goTo("./game"));
 
+  div
+    .querySelector(".back")
+    .addEventListener("click", () => param.goTo("/welcome"));
   style.innerHTML = `
     .container__results {
       display: flex;
       flex-direction: column;
       align-items: center;
+      height: 100vh;
       justify-content: center;
       padding-top: 40px;
-      height: 100vh;
       background-color: ${background};
     }
+    .img__result {
+      height: 180px;
+    }
     .board {
-      height: 200px;
+      height: 190px;
       width: 230px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       border: 10px solid #000;
       border-radius: 10px;
-      margin: 20px 0;
+      margin: 5px 0;
       background-color: #fff;
     }
     .board  h3 {
@@ -80,8 +87,8 @@ export function initResults(param): HTMLElement {
     .board > text-comp {
       align-self: flex-end;
     }
-    .img__result {
-      height: 220px;
+    .back {
+      margin-top: 10px;
     }
   `;
 
