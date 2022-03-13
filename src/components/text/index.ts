@@ -10,8 +10,13 @@ customElements.define(
       const shadow = this.attachShadow({ mode: "open" });
       const divEl = document.createElement("div");
       const style = document.createElement("style");
+      divEl.className = "text";
 
       style.innerHTML = `
+      .text {
+        padding-top: 40px;
+        text-align: center
+      }
       .title {
         font-size: 80px;
         margin-bottom: 100px;
@@ -31,9 +36,8 @@ customElements.define(
       }
       .large {
         font-size: 40px;
-        text-align: center;
         line-height: 60px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         max-width: 400px;
       }
       @media only screen and (min-width: 426px) {
@@ -44,7 +48,7 @@ customElements.define(
       `;
       divEl.innerHTML = this.textContent;
 
-      divEl.className = variant;
+      divEl.className = variant + " text";
       shadow.appendChild(style);
       shadow.appendChild(divEl);
     }

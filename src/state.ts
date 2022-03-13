@@ -35,16 +35,19 @@ const state = {
   suscribe(callback: (any) => any) {
     this.listeners.push(callback);
   },
+
   //SAVE THE SCORE AND SUMMON SAVE DATA
   setScore() {
-    const currentWhoWins = this.whoWins();
-    console.log(currentWhoWins);
-
     const currentState = this.getState();
+
+    const myPlay = this.getState().currentGame.myPlay;
+    const computerPlay = this.getState().currentGame.computerPlay;
+    const currentWhoWins = this.whoWins(myPlay, computerPlay);
+
     const myScore = currentState.history.myScore;
     const computerScore = currentState.history.computerScore;
 
-    if (currentWhoWins == "victoria") {
+    if (currentWhoWins === "wins") {
       return this.setState({
         ...currentState,
         history: {
@@ -52,7 +55,7 @@ const state = {
           computerScore: computerScore,
         },
       });
-    } else if (currentWhoWins == "derrota") {
+    } else if (currentWhoWins === "loss") {
       return this.setState({
         ...currentState,
         history: {
@@ -71,7 +74,7 @@ const state = {
     const tie = [tieP, tieR, tieS].includes(true);
 
     if (tie) {
-      console.log("empate");
+      return "tie";
     }
 
     const winS: boolean = myPlay == "scissors" && computerPlay == "paper";
@@ -80,9 +83,9 @@ const state = {
     const youWin = [winP, winR, winS].includes(true);
 
     if (youWin) {
-      return "victoria";
+      return "wins";
     } else {
-      return "derrota";
+      return "loss";
     }
   },
 

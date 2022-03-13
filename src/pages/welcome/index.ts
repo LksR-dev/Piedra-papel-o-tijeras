@@ -1,4 +1,4 @@
-export function initWelcome(param) {
+export function initWelcome(param): HTMLElement {
   const div = document.createElement("div");
   div.className = "container";
 

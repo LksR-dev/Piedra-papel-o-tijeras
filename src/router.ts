@@ -1,6 +1,7 @@
 import { initWelcome } from "./pages/welcome";
 import { initInstructions } from "./pages/game-instructions";
 import { initMove } from "./pages/game";
+import { initResults } from "./pages/show-results";
 
 const routes = [
   {
@@ -14,6 +15,10 @@ const routes = [
   {
     path: /\/game/,
     component: initMove,
+  },
+  {
+    path: /\/results/,
+    component: initResults,
   },
 ];
 

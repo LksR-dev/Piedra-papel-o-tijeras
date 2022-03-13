@@ -1,4 +1,4 @@
-export function initInstructions(param) {
+export function initInstructions(param): HTMLElement {
   const div = document.createElement("div");
   div.className = "container";
   div.innerHTML = `

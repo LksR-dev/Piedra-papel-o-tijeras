@@ -1,33 +1,33 @@
 import { state } from "../../state";
 
-export function initMove(param) {
+export function initMove(param): HTMLElement {
   let counter = 5;
   const countdown = setInterval(() => {
+    counter--;
     const counterEl = div.querySelector(".master-circle");
     counterEl.textContent = String(counter);
-    counter--;
 
-    // if (counter < 0) {
-    //   clearInterval(countdown);
-    //   param.goTo("/instructions");
-    // }
+    if (counter < 0) {
+      clearInterval(countdown);
+      param.goTo("/instructions");
+    }
   }, 1000);
   const div = document.createElement("div");
   div.className = "container";
   div.innerHTML = `
     <div class="hands__top">
-      <hands-comp hand="rock" class="rock__top"></hands-comp>
-      <hands-comp hand="paper" class="paper__top"></hands-comp>
-      <hands-comp hand="scissors" class="scissors__top"></hands-comp>
+      <hands-comp hand="rock" class="rock__top hand-display-none"></hands-comp>
+      <hands-comp hand="paper" class="paper__top hand-display-none"></hands-comp>
+      <hands-comp hand="scissors" class="scissors__top hand-display-none"></hands-comp>
     </div>
 
-    <div class="master-circle"></div>
+    <div class="master-circle">${counter}</div>
     
     
     <div class="container__hand">
-      <hands-comp hand="rock" class="rock__bottom"></hands-comp>
-      <hands-comp hand="paper" class="paper__bottom"></hands-comp>
-      <hands-comp hand="scissors" class="scissors__bottom"></hands-comp>
+      <hands-comp hand="rock" class="rock__bottom disabled"></hands-comp>
+      <hands-comp hand="paper" class="paper__bottom disabled"></hands-comp>
+      <hands-comp hand="scissors" class="scissors__bottom disabled"></hands-comp>
     </div>
   `;
 
@@ -40,9 +40,6 @@ export function initMove(param) {
       position: relative;
       top: -35px;
     }
-    hands-comp:hover {
-      cursor:pointer
-    }
     .actived {
       display: inherit;
       transform: translateY(-30px);
@@ -50,8 +47,25 @@ export function initMove(param) {
     }
     .disabled {
       opacity: 60%;
-      transform: translateY(30px);
-      transition: 0.5s;
+    }
+    .hand-display-none {
+      display: none;
+    }
+    .active-hands{
+      width
+    }
+    .actived-hands-top {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .actived-hand-top {
+      display: flex;
+      transform: translateY(-30px);
+      transition: all 0.5s;
+    }
+    hands-comp:hover {
+      cursor:pointer
     }
 
     .master-circle {
@@ -130,6 +144,9 @@ export function initMove(param) {
   }
   `;
 
+  const countdownEl = div.querySelector(".master-circle");
+  const handsDiv = div.querySelector(".container__hand");
+
   const handsTop = div.querySelector(".hands__top");
   const handRockTop = div.querySelector(".rock__top");
   const handPaperTop = div.querySelector(".paper__top");
@@ -160,8 +177,49 @@ export function initMove(param) {
 
   function activeHands(hand) {
     if (hand === "scissors") {
+      handScissorsBottom.classList.remove("disabled");
+      handScissorsBottom.classList.add("actived");
+      setTimeout(() => {
+        handRockBottom.classList.add("hand-display-none");
+        handPaperBottom.classList.add("hand-display-none");
+      }, 1500);
+    } else if (hand === "rock") {
+      handRockBottom.classList.remove("disabled");
+      handRockBottom.classList.add("actived");
+      setTimeout(() => {
+        handScissorsBottom.classList.add("hand-display-none");
+        handPaperBottom.classList.add("hand-display-none");
+      }, 1500);
+    } else if (hand === "paper") {
+      handPaperBottom.classList.remove("disabled");
+      handPaperBottom.classList.add("actived");
+      setTimeout(() => {
+        handScissorsBottom.classList.add("hand-display-none");
+        handRockBottom.classList.add("hand-display-none");
+      }, 1500);
     }
-    console.log(hand);
+
+    setTimeout(() => {
+      const machineMove = state.getState().currentGame.computerPlay;
+      countdownEl.remove();
+
+      handsDiv.classList.add("active-hands");
+      handsTop.classList.add("actived-hands-top");
+
+      if (machineMove == "scissors") {
+        handScissorsTop.classList.add("actived-hand-top");
+      }
+      if (machineMove == "rock") {
+        handRockTop.classList.add("actived-hand-top");
+      }
+      if (machineMove == "paper") {
+        handPaperTop.classList.add("actived-hand-top");
+      }
+
+      setTimeout(() => {
+        param.goTo("/results");
+      }, 1500);
+    }, 1500);
   }
 
   div.appendChild(style);
