@@ -105,16 +105,6 @@ const state = {
     const currentState = this.getState().history;
     localStorage.setItem("data", JSON.stringify(currentState));
   },
-
-  cleanData() {
-    localStorage.setItem(
-      "data",
-      JSON.stringify({
-        myScore: 0,
-        computerScore: 0,
-      })
-    );
-  },
 };
 
 export { state };

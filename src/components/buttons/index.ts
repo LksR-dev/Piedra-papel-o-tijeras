@@ -18,6 +18,7 @@ customElements.define(
           width: 300px;
           height: 87px;
           background-color: #006CFC;
+          color: #ffff;
           font-size: 40px;
           font-family: "Patrick Hand", sans-serif;
           border: 10px solid #001997;

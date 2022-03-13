@@ -31,8 +31,9 @@ customElements.define(
         }
       }
       .body {
-        font-size: 18px;
-        margin-bottom: 70px;
+        font-size: 30px;
+        padding-right: 20px;
+        padding-top: 0;
       }
       .large {
         font-size: 40px;

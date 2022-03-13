@@ -1,4 +1,4 @@
-4930
+4929
 92D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\core\lib\public\PluginOptions.js132900571360270000 0
 102D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-discard-comments\src\lib\commentRemover.js132914760185500000 0
 84D:\src\dwf-m5-secondtime\desafio-final\node_modules\terser\lib\compress\inference.js132915686261734830 0
@@ -22,7 +22,7 @@
 91D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\proximity.js132914760174590000 0
 61D:\src\dwf-m5-secondtime\desafio-final\src\components\results132914784495197402 1
 79D:\src\dwf-m5-secondtime\desafio-final\node_modules\supports-color\package.json132874371557680000 0
-65D:\src\dwf-m5-secondtime\desafio-final\dist\index.b71e74eb.js.map132916096856530761 0
+65D:\src\dwf-m5-secondtime\desafio-final\dist\index.b71e74eb.js.map132916145915166738 0
 104D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\indeterminate-checkbox.js132914760174590000 0
 70D:\src\dwf-m5-secondtime\desafio-final\node_modules\yaml\types\omap.js132874371841180000 0
 70D:\src\dwf-m5-secondtime\desafio-final\node_modules\css-tree\lib\utils132914760357328998 1
@@ -44,7 +44,7 @@
 60D:\src\dwf-m5-secondtime\desafio-final\node_modules\svgo\lib132915686263559113 1
 101D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-selector-parser\dist\selectors\nesting.js132874371976070000 0
 88D:\src\dwf-m5-secondtime\desafio-final\node_modules\@swc\helpers\lib\_new_arrow_check.js132874371741910000 0
-43D:\src\dwf-m5-secondtime\desafio-final\dist132916096856570667 1
+43D:\src\dwf-m5-secondtime\desafio-final\dist132916145915224871 1
 78D:\src\dwf-m5-secondtime\desafio-final\node_modules\yaml\browser\dist\index.js132874371841180000 0
 95D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\vector-effect.js132914760174590000 0
 61D:\src\dwf-m5-secondtime\desafio-final\node_modules\callsites132914760300863805 1
@@ -105,6 +105,7 @@
 53D:\src\dwf-m5-secondtime\desafio-final\src\index.html132915747600810355 0
 97D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\hash\parcel-hash.linux-arm64-gnu.node132900571430990000 0
 74D:\src\dwf-m5-secondtime\desafio-final\node_modules\nth-check\lib\index.js132874371912530000 0
+62D:\src\dwf-m5-secondtime\desafio-final\node_modules\color-name132914760301033352 1
 65D:\src\dwf-m5-secondtime\desafio-final\node_modules\lmdb\write.js132909923187880000 0
 71D:\src\dwf-m5-secondtime\desafio-final\node_modules\terser\bin\uglifyjs132915686258887257 0
 60D:\src\dwf-m5-secondtime\desafio-final\node_modules\domutils132914760301571913 1
@@ -123,25 +124,25 @@
 84D:\src\dwf-m5-secondtime\desafio-final\node_modules\.bin\node-gyp-build-optional.cmd132915686265006969 0
 80D:\src\dwf-m5-secondtime\desafio-final\node_modules\posthtml\types\posthtml.d.ts132902621189740000 0
 76D:\src\dwf-m5-secondtime\desafio-final\node_modules\abortcontroller-polyfill132914760300644401 1
-51D:\src\dwf-m5-secondtime\desafio-final\src\state.ts132916096854662169 0
+51D:\src\dwf-m5-secondtime\desafio-final\src\state.ts132916109465041720 0
 97D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\mutation-events.js132914760174590000 0
 93D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\videotracks.js132914760174590000 0
 75D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss\lib\document.js132914760171960000 0
 72D:\src\dwf-m5-secondtime\desafio-final\node_modules\yaml\browser\pair.js132874371841180000 0
 87D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\core\test\fixtures\main-mjs132914760385681008 1
-65D:\src\dwf-m5-secondtime\desafio-final\public\images\StarWins.svg132916092467000437 0
+65D:\src\dwf-m5-secondtime\desafio-final\public\images\StarWins.svg132916118626594284 0
 71D:\src\dwf-m5-secondtime\desafio-final\node_modules\dotenv\package.json132874371563980000 0
 101D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-ordered-values\types\rules\listStyle.d.ts132909923193390000 0
 93D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\transformer-posthtml\package.json132900571413870000 0
 87D:\src\dwf-m5-secondtime\desafio-final\node_modules\css-declaration-sorter\package.json132874371917900000 0
 96D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\css-cross-fade.js132914760174590000 0
 81D:\src\dwf-m5-secondtime\desafio-final\node_modules\svgo\plugins\removeViewBox.js132915686262929379 0
-70D:\src\dwf-m5-secondtime\desafio-final\src\components\buttons\index.ts132915758508921859 0
+70D:\src\dwf-m5-secondtime\desafio-final\src\components\buttons\index.ts132916120147368046 0
 96D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\workers\lib\process\ProcessWorker.js132900571427290000 0
 85D:\src\dwf-m5-secondtime\desafio-final\node_modules\weak-lru-cache\tests\benchmark.js132887094391850000 0
 94D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\do-not-track.js132914760174590000 0
 98D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\css-font-stretch.js132914760174590000 0
-67D:\src\dwf-m5-secondtime\desafio-final\src\components\text\index.ts132916079138471343 0
+67D:\src\dwf-m5-secondtime\desafio-final\src\components\text\index.ts132916124476375238 0
 53D:\src\dwf-m5-secondtime\desafio-final\src\pages\game132915654760041304 1
 99D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\core\lib\requests\ParcelBuildRequest.js132900571360270000 0
 75D:\src\dwf-m5-secondtime\desafio-final\node_modules\terser\bin\package.json132915686262899760 0
@@ -155,7 +156,7 @@
 89D:\src\dwf-m5-secondtime\desafio-final\node_modules\posthtml\node_modules\posthtml-parser132914760331408299 1
 81D:\src\dwf-m5-secondtime\desafio-final\node_modules\v8-compile-cache\CHANGELOG.md132874371531470000 0
 56D:\src\dwf-m5-secondtime\desafio-final\src\pages\welcome132915650661347936 1
-65D:\src\dwf-m5-secondtime\desafio-final\public\images\StarLoss.svg132916092587997559 0
+65D:\src\dwf-m5-secondtime\desafio-final\public\images\StarLoss.svg132916118422274058 0
 90D:\src\dwf-m5-secondtime\desafio-final\node_modules\cosmiconfig\dist\ExplorerSync.d.ts.map132874371867650000 0
 91D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-minify-params\node_modules\.bin132914760390408376 1
 94D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-selector-parser\dist\util\index.js132874371976070000 0
@@ -168,7 +169,7 @@
 59D:\src\dwf-m5-secondtime\desafio-final\src\components\hands132915684510464348 1
 74D:\src\dwf-m5-secondtime\desafio-final\node_modules\colord\plugins\a11y.js132874371989790000 0
 109D:\src\dwf-m5-secondtime\desafio-final\node_modules\msgpackr-extract\prebuilds\linux-x64\node.abi72.musl.node132874371673150000 0
-70D:\src\dwf-m5-secondtime\desafio-final\src\pages\show-results\index.ts132916094622085292 0
+70D:\src\dwf-m5-secondtime\desafio-final\src\pages\show-results\index.ts132916145911496066 0
 77D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\transformer-babel132914760387964906 1
 79D:\src\dwf-m5-secondtime\desafio-final\node_modules\yaml\dist\legacy-exports.js132874371841180000 0
 76D:\src\dwf-m5-secondtime\desafio-final\node_modules\@swc\helpers\lib\_get.js132874371741910000 0
@@ -221,15 +222,8 @@
 129D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias\browser.js132900571447630000 0
 101D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-discard-comments\src\lib\commentParser.js132914760185500000 0
 112D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\img-naturalwidth-naturalheight.js132914760174590000 0
-52D:\src\dwf-m5-secondtime\desafio-final\public\images132916095650167906 1
+52D:\src\dwf-m5-secondtime\desafio-final\public\images132916144271642191 1
 64D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\hash132914760387406403 1
-76D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\packager-raw\src132914760344493310 1
-75D:\src\dwf-m5-secondtime\desafio-final\node_modules\normalize-url\readme.md132874371989730000 0
-62D:\src\dwf-m5-secondtime\desafio-final\public\images\paper.png132914785762216399 0
-91D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-merge-longhand\types\index.d.ts132914760186010000 0
-62D:\src\dwf-m5-secondtime\desafio-final\public\images\fondo.png132915670910036151 0
-73D:\src\dwf-m5-secondtime\desafio-final\node_modules\dotenv-expand\LICENSE132874371566060000 0
-89D:\src\dwf-m5-secondtime\desafio-final\node_modules\stylehacks\types\dictionary\tags.d.ts132909923195980000 0
 78D:\src\dwf-m5-secondtime\desafio-final\node_modules\source-map\source-map.d.ts132874371866270000 0
 99D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\css-width-stretch.js132914760174590000 0
 87D:\src\dwf-m5-secondtime\desafio-final\node_modules\terser\lib\compress\tighten-body.js132915686262840372 0
@@ -251,8 +245,12 @@
 99D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\css-initial-value.js132914760174590000 0
 89D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\resolver-default\package.json132900571398690000 0
 69D:\src\dwf-m5-secondtime\desafio-final\node_modules\lmdb\package.json132909923187880000 0
-64D:\src\dwf-m5-secondtime\desafio-final\public\images\StarTie.svg132916093472530951 0
+64D:\src\dwf-m5-secondtime\desafio-final\public\images\StarTie.svg132916144274038697 0
 62D:\src\dwf-m5-secondtime\desafio-final\public\images\fondo.svg132915822435600311 0
+76D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\packager-raw\src132914760344493310 1
+75D:\src\dwf-m5-secondtime\desafio-final\node_modules\normalize-url\readme.md132874371989730000 0
+62D:\src\dwf-m5-secondtime\desafio-final\public\images\paper.png132914785762216399 0
+91D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-merge-longhand\types\index.d.ts132914760186010000 0
 69D:\src\dwf-m5-secondtime\desafio-final\node_modules\globals\readme.md132887094367250000 0
 83D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\regions\ES.js132914760174590000 0
 101D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\css-text-align-last.js132914760174590000 0
@@ -323,7 +321,6 @@
 70D:\src\dwf-m5-secondtime\desafio-final\node_modules\chrome-trace-event132914760300943599 1
 89D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-discard-comments\package.json132914760185500000 0
 76D:\src\dwf-m5-secondtime\desafio-final\node_modules\svgo\lib\svgo\jsAPI.d.ts132915686263542398 0
-62D:\src\dwf-m5-secondtime\desafio-final\node_modules\color-name132914760301033352 1
 81D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-merge-rules\README.md132909923185900000 0
 112D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\transformer-babel\node_modules\.bin\browserslist.cmd132914760388094559 0
 79D:\src\dwf-m5-secondtime\desafio-final\node_modules\node-addon-api\node_api.gyp132874371569360000 0
@@ -592,6 +589,7 @@
 74D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-merge-longhand132914760327369103 1
 80D:\src\dwf-m5-secondtime\desafio-final\node_modules\@swc\helpers\src\_type_of.js132874371741910000 0
 86D:\src\dwf-m5-secondtime\desafio-final\node_modules\terser\lib\compress\reduce-vars.js132915686262529184 0
+83D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\reporter-dev-server\src132914760344622979 1
 71D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-merge-rules132914760390119142 1
 83D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\regions\JP.js132914760174590000 0
 69D:\src\dwf-m5-secondtime\desafio-final\node_modules\callsites\license132874371995140000 0
@@ -821,7 +819,7 @@
 104D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\element-scroll-methods.js132914760174590000 0
 90D:\src\dwf-m5-secondtime\desafio-final\node_modules\stylehacks\types\plugins\starHtml.d.ts132909923195980000 0
 75D:\src\dwf-m5-secondtime\desafio-final\node_modules\parse-json\package.json132874371957440000 0
-66D:\src\dwf-m5-secondtime\desafio-final\dist\index.61d3354a.css.map132916095879322841 0
+66D:\src\dwf-m5-secondtime\desafio-final\dist\index.61d3354a.css.map132916118436098726 0
 90D:\src\dwf-m5-secondtime\desafio-final\node_modules\terser\node_modules\commander\index.js132874371764180000 0
 73D:\src\dwf-m5-secondtime\desafio-final\node_modules\msgpackr\benchmark.md132887094364070000 0
 70D:\src\dwf-m5-secondtime\desafio-final\node_modules\yaml\dist\index.js132874371841180000 0
@@ -943,7 +941,7 @@
 103D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\native-filesystem-api.js132914760174590000 0
 86D:\src\dwf-m5-secondtime\desafio-final\node_modules\xxhash-wasm\umd\xxhash-wasm.js.map132874371653480000 0
 107D:\src\dwf-m5-secondtime\desafio-final\node_modules\msgpackr-extract\prebuilds\darwin-arm64\node.abi93.node132874371673150000 0
-65D:\src\dwf-m5-secondtime\desafio-final\dist\StarWins.25cb59c2.svg132916095654566114 0
+65D:\src\dwf-m5-secondtime\desafio-final\dist\StarWins.25cb59c2.svg132916118627082972 0
 91D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\svg-fonts.js132914760174590000 0
 61D:\src\dwf-m5-secondtime\desafio-final\node_modules\.bin\svgo132915686265015175 0
 82D:\src\dwf-m5-secondtime\desafio-final\node_modules\xxhash-wasm\esm\xxhash-wasm.js132874371653480000 0
@@ -1490,6 +1488,8 @@
 83D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\regions\CF.js132914760174590000 0
 77D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-svgo\src\index.js132909923193770000 0
 93D:\src\dwf-m5-secondtime\desafio-final\node_modules\stylehacks\types\dictionary\browsers.d.ts132909923195980000 0
+73D:\src\dwf-m5-secondtime\desafio-final\node_modules\dotenv-expand\LICENSE132874371566060000 0
+89D:\src\dwf-m5-secondtime\desafio-final\node_modules\stylehacks\types\dictionary\tags.d.ts132909923195980000 0
 77D:\src\dwf-m5-secondtime\desafio-final\node_modules\stylehacks\src\dictionary132914760369765746 1
 68D:\src\dwf-m5-secondtime\desafio-final\node_modules\css-what\LICENSE132874371912570000 0
 80D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-minify-selectors\src132914760347884252 1
@@ -1901,6 +1901,7 @@
 78D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-ordered-values\src132914760348063787 1
 88D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\package-manager\package.json132900571359310000 0
 101D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-ordered-values\types\rules\animation.d.ts132909923193390000 0
+96D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-merge-longhand\src\lib\decl\index.js132914760186010000 0
 101D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-ordered-values\types\rules\boxShadow.d.ts132909923193390000 0
 80D:\src\dwf-m5-secondtime\desafio-final\node_modules\css-tree\dist\csstree.min.js132874371823660000 0
 71D:\src\dwf-m5-secondtime\desafio-final\node_modules\is-json\.travis.yml132874371896230000 0
@@ -2117,7 +2118,6 @@
 97D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-merge-longhand\src\lib\validateWsc.js132914760186010000 0
 96D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\object-observe.js132914760174590000 0
 98D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-merge-longhand\src\lib\decl\borders.js132914760186010000 0
-96D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-merge-longhand\src\lib\decl\index.js132914760186010000 0
 94D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features\border-image.js132914760174590000 0
 74D:\src\dwf-m5-secondtime\desafio-final\node_modules\detect-libc\.npmignore132915686258638405 0
 98D:\src\dwf-m5-secondtime\desafio-final\node_modules\postcss-merge-longhand\src\lib\decl\padding.js132914760186010000 0
@@ -3222,7 +3222,7 @@
 92D:\src\dwf-m5-secondtime\desafio-final\node_modules\css-tree\lib\syntax\node\TypeSelector.js132874371823660000 0
 81D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\core\lib\constants.js132900571360270000 0
 92D:\src\dwf-m5-secondtime\desafio-final\node_modules\css-tree\lib\syntax\node\UnicodeRange.js132874371823660000 0
-65D:\src\dwf-m5-secondtime\desafio-final\dist\scissors.bfcd9655.png132916039841741124 0
+65D:\src\dwf-m5-secondtime\desafio-final\dist\scissors.bfcd9655.png132916118436712214 0
 79D:\src\dwf-m5-secondtime\desafio-final\node_modules\css-tree\lib\lexer\error.js132874371823660000 0
 83D:\src\dwf-m5-secondtime\desafio-final\node_modules\css-tree\lib\syntax\node\Url.js132874371823660000 0
 74D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\logger\LICENSE132900571359940000 0
@@ -3285,7 +3285,7 @@
 75D:\src\dwf-m5-secondtime\desafio-final\node_modules\colord\plugins\hwb.d.ts132874371989790000 0
 135D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-glob\src\test.js132900571447630000 0
 79D:\src\dwf-m5-secondtime\desafio-final\node_modules\css-select\lib\general.d.ts132874371819620000 0
-61D:\src\dwf-m5-secondtime\desafio-final\dist\index.b71e74eb.js132916096856500854 0
+61D:\src\dwf-m5-secondtime\desafio-final\dist\index.b71e74eb.js132916145915105143 0
 83D:\src\dwf-m5-secondtime\desafio-final\node_modules\css-select\lib\general.d.ts.map132874371819620000 0
 100D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\watcher\node_modules\.bin\node-gyp-build132914760389141764 0
 77D:\src\dwf-m5-secondtime\desafio-final\node_modules\css-select\lib\index.d.ts132874371819620000 0
@@ -3474,7 +3474,7 @@
 83D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\regions\TL.js132914760174590000 0
 81D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\browsers.js132914760174590000 0
 97D:\src\dwf-m5-secondtime\desafio-final\node_modules\abortcontroller-polyfill\dist\cjs-ponyfill.js132874371558280000 0
-64D:\src\dwf-m5-secondtime\desafio-final\dist\StarTie.772e2b57.svg132916095654566114 0
+64D:\src\dwf-m5-secondtime\desafio-final\dist\StarTie.772e2b57.svg132916118437190929 0
 88D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\browserVersions.js132914760174590000 0
 81D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\features.js132914760174590000 0
 83D:\src\dwf-m5-secondtime\desafio-final\node_modules\caniuse-lite\data\regions\AD.js132914760174590000 0
@@ -4431,7 +4431,6 @@
 97D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\runtime-browser-hmr\lib\HMRRuntime.js132900571400090000 0
 91D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\runtime-browser-hmr\lib\loaders132914760364430005 1
 80D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\resolver-default\lib132914760344652899 1
-83D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\reporter-dev-server\src132914760344622979 1
 96D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\reporter-dev-server\src\HMRServer.js132900571375120000 0
 99D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\reporter-dev-server\src\serverErrors.js132900571375120000 0
 93D:\src\dwf-m5-secondtime\desafio-final\node_modules\@parcel\reporter-dev-server\src\templates132914760364410056 1
@@ -4923,9 +4922,9 @@
 67D:\src\dwf-m5-secondtime\desafio-final\node_modules\.bin\semver.ps1132915686265015175 0
 65D:\src\dwf-m5-secondtime\desafio-final\node_modules\.bin\svgo.cmd132915686265015175 0
 67D:\src\dwf-m5-secondtime\desafio-final\node_modules\.bin\terser.ps1132915686265015175 0
-62D:\src\dwf-m5-secondtime\desafio-final\dist\fondo.dc1a7097.svg132916095654566114 0
-62D:\src\dwf-m5-secondtime\desafio-final\dist\index.61d3354a.css132916095879322841 0
-54D:\src\dwf-m5-secondtime\desafio-final\dist\index.html132916095654566114 0
-62D:\src\dwf-m5-secondtime\desafio-final\dist\paper.7d759e4a.png132916039841780570 0
-61D:\src\dwf-m5-secondtime\desafio-final\dist\rock.9b488964.png132916095653399253 0
-65D:\src\dwf-m5-secondtime\desafio-final\dist\StarLoss.493ae981.svg132916095654566114 0
+62D:\src\dwf-m5-secondtime\desafio-final\dist\fondo.dc1a7097.svg132916118437190929 0
+62D:\src\dwf-m5-secondtime\desafio-final\dist\index.61d3354a.css132916118436098726 0
+54D:\src\dwf-m5-secondtime\desafio-final\dist\index.html132916118437190929 0
+62D:\src\dwf-m5-secondtime\desafio-final\dist\paper.7d759e4a.png132916118436821913 0
+61D:\src\dwf-m5-secondtime\desafio-final\dist\rock.9b488964.png132916118436712214 0
+65D:\src\dwf-m5-secondtime\desafio-final\dist\StarLoss.493ae981.svg132916118437190929 0
