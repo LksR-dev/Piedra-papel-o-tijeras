@@ -47,13 +47,13 @@ export function initResults(param): HTMLElement {
     <btn-comp class="button back">Volver al Inicio</btn-comp>
   `;
 
-  div
-    .querySelector(".button")
-    .addEventListener("click", () => param.goTo("./game"));
+  div.querySelector(".button").addEventListener("click", () => {
+    param.goTo("./game");
+  });
 
-  div
-    .querySelector(".back")
-    .addEventListener("click", () => param.goTo("/welcome"));
+  div.querySelector(".back").addEventListener("click", () => {
+    param.goTo("/welcome");
+  });
   style.innerHTML = `
     .container__results {
       display: flex;

@@ -16,7 +16,7 @@ const state = {
   getStorage() {
     const local = JSON.parse(localStorage.getItem("data"));
     if (localStorage.getItem("data")) {
-      this.data.history = local;
+      return (this.data.history = local);
     }
   },
 
@@ -102,8 +102,8 @@ const state = {
   },
 
   savedData() {
-    const currentState = this.getState().history;
-    localStorage.setItem("data", JSON.stringify(currentState));
+    const currentHistory = this.getState().history;
+    localStorage.setItem("data", JSON.stringify(currentHistory));
   },
 };
 
