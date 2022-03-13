@@ -30,6 +30,7 @@ const state = {
       cb();
     }
     console.log("Soy el state, he cambiado", this.data);
+    this.savedData();
   },
 
   suscribe(callback: (any) => any) {
@@ -64,7 +65,6 @@ const state = {
         },
       });
     }
-    this.savedData();
   },
 
   whoWins(myPlay: Play, computerPlay: Play) {
