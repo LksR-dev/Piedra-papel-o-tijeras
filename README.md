@@ -8,6 +8,10 @@
 
 En caso de que no se cumpla, ganará la computadora o habrá un empate.
 
+## Demo
+
+https://lksr-dev.github.io/dwf-m5/
+
 ## Habilidades que emplee:
 
 - Web Components.
@@ -16,7 +20,3 @@ En caso de que no se cumpla, ganará la computadora o habrá un empate.
 - LocalStorage.
 - Typescript.
 - CSS.
-
-## Demo
-
-https://lksr-dev.github.io/dwf-m5/
