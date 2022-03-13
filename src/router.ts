@@ -52,7 +52,7 @@ export function initRouter(container: Element) {
     }
   }
 
-  if (location.pathname == "/" || location.pathname == "/dwf-m5") {
+  if (location.pathname == "/" || location.pathname == "/dwf-m5/") {
     goTo("/welcome");
   } else {
     handleRoute(location.pathname);
